@@ -11,7 +11,11 @@ class Solution:
             x = math.floor(x/10)
         return x == revers or x == math.floor(revers/10)
 
-
+'''
+        if x< 0 or x%10 == 0 and x != 0:
+            return False
+        return str(x) == str(x)[::-1]
+'''
 
 
 x = 121
